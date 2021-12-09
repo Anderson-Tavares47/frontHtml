@@ -1,0 +1,73 @@
+.container {
+  display: grid;
+  /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+  grid-template-columns: repeat(9, 1fr);
+  /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+  grid-auto-rows: 1px;
+  /* espaço entre um elemento interno e outro */
+  grid-gap: 5px 8px;
+  /* margem interna que afasta os elementos da borda do grid */
+  padding: 20px 40px;
+  padding-right: 40px;
+  background-color: #DFDFDF;
+  font-family:'Open Sans', sans-serif;
+  align-items: center;
+}
+.text-config{
+    text-align: center;
+    letter-spacing: -0.78px;
+    color: #000000;
+}
+#cel-img{
+    margin: -5px;
+}
+#whats-img{
+    margin: -5px;
+    height: 20px;
+    padding-right: 6px;
+}
+footer{
+    background-color: #DFDFDF;
+    height: 50px;
+}
+.dev {
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(6, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 1px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 5px 8px;
+    /* margem interna que afasta os elementos da borda do grid */
+    padding: 70px 40px;
+    padding-right: 40px;
+    font-family:'Open Sans', sans-serif;
+    align-items: center;
+  }
+
+  #logo{
+    padding-left: 30vh;
+    height: 70px
+}
+
+input[type="text" i] {
+    padding: 15px 200px;
+}
+.input-search-style{
+    width: 200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
+    opacity: 1;
+    background-size: 15px;
+}
+  #search-bar #img-search { 
+    position: absolute;
+    top: 30px;
+    left: 585px;
+    font-size: 15px;
+  }
+  #search-bar { 
+    position: relative; 
+    padding-right: 15vh;
+  }
